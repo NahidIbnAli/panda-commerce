@@ -1,0 +1,42 @@
+header .rounded-pill {
+  border: 0;
+  background-color: #f1f1f1;
+}
+.bg-orange {
+  background-color: #fceae8;
+}
+.price-clr {
+  color: #ff136f;
+}
+button,
+.btn {
+  text-transform: uppercase;
+  padding: 9px 25px;
+}
+.btn-gradient {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.categories-section img {
+  width: 100px;
+}
+.bg-gradient-yellow {
+  background-image: linear-gradient(to bottom, #ff9c35 0%, #ffd019 100%);
+}
+.bg-gradient-pink {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+}
+.bg-gradient-blue {
+  background-image: linear-gradient(to bottom, #4289ff 0%, #3f07f8 100%);
+}
+.panda-bg-light {
+  background-color: #f4f4f4 !important;
+}
+@media screen and (min-width: 992px) {
+  .stay-in-touch-section .input-group {
+    width: 55%;
+  }
+}
